@@ -30,6 +30,7 @@ import org.apache.commons.imaging.formats.tiff.constants.ExifTagConstants;
 import org.apache.commons.io.FilenameUtils;
 
 /**
+ * reads exif metadata from jpegs
  * @author srinivasan
  *
  */
