@@ -7,6 +7,7 @@ import static jpegrename.util.Constants.DFTIME;
 import static jpegrename.util.Constants.DFTIMEINPUT;
 import static jpegrename.util.Constants.FILE_SEPARATOR;
 import static jpegrename.util.Constants.JPEG;
+import static jpegrename.util.Constants.JPG;
 
 import java.io.File;
 import java.io.IOException;
@@ -67,7 +68,7 @@ public class ExifMetaDataUtils {
 		List<String> renamedFiles = new ArrayList<>();
 		String oldName = null;
 		for (File jpegFile : files) {
-			if (JPEG.equalsIgnoreCase(FilenameUtils.getExtension(jpegFile.getName()))) {
+			if (JPEG.equalsIgnoreCase(FilenameUtils.getExtension(jpegFile.getName()))||JPG.equalsIgnoreCase(FilenameUtils.getExtension(jpegFile.getName()))) {
 				Path source = Paths.get(jpegFile.getPath());
 				String timestamp = null;
 				try {

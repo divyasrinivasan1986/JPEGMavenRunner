@@ -22,6 +22,7 @@ public class Constants {
 	public static final String RENAME_FILENAMES = "The following files were renamed:";
 	public static final String NO_FILE_FOUND = "No Files found. Rename aborted.";
 	public static final String TIFF_DATETIME_TAGNAME = "DateTime";
-	public static final String JPEG = "JPG";
+	public static final String JPEG = "JPEG";
+	public static final String JPG = "JPG";
 	public static final String YES = "Y";
 }
