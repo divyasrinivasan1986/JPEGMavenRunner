@@ -20,6 +20,7 @@ public class Constants {
 	public static final String RENAME_FINISHED = "Rename finished.";
 	public static final String IO_UNEXPECTED_ERROR = "Unexpected Error reading directory:";
 	public static final String RENAME_FILENAMES = "The following files were renamed:";
+	public static final String NO_RENAME_FILENAMES = "No files were renamed";
 	public static final String NO_FILE_FOUND = "No Files found. Rename aborted.";
 	public static final String TIFF_DATETIME_TAGNAME = "DateTime";
 	public static final String JPEG = "JPEG";

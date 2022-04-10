@@ -8,6 +8,7 @@ import static jpegrename.util.Constants.RENAME_FINISHED;
 import static jpegrename.util.Constants.USER_CONFIRM;
 import static jpegrename.util.Constants.USER_INPUT;
 import static jpegrename.util.Constants.YES;
+import static jpegrename.util.Constants.NO_RENAME_FILENAMES;
 
 import java.io.File;
 import java.io.UncheckedIOException;
@@ -48,8 +49,11 @@ public class JpegRenameRunner {
 					if (!renamedFiles.isEmpty()) {
 						System.out.println(RENAME_FILENAMES);
 						System.out.println(renamedFiles);
+						System.out.println(RENAME_FINISHED);
+					}else {
+						System.out.println(NO_RENAME_FILENAMES);
 					}
-					System.out.println(RENAME_FINISHED);
+					
 				} else {
 					System.out.println(ABORT_APP);
 				}
